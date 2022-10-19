@@ -8,3 +8,116 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  
+}
+
+/* NAV */
+.menucontainer {
+    background-size: 100%;
+    background: #540B51;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    
+              
+}
+
+.menu {
+    display: block;
+}
+
+.menu-option {
+    display:flex;
+    
+}
+
+.menu-item {
+    list-style: none;
+    
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 70%;
+    color:white;
+    margin-left: 1.5rem;
+}
+
+.menu img {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+.menu-right {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.menu-right-option {
+    display: flex;
+}
+
+
+.menu-right-item {
+    list-style: none;
+    
+
+}
+
+.menu-right-option a {
+    text-decoration: none;
+    font-size: 0.7em;
+    color:white;
+    margin-left: 1.5rem;
+}
+
+#menu-right-item-border a {
+    color: #540B51;
+    background-color: white;
+    border-radius: 3px;
+    padding: 0.5rem;
+    
+}
+
+
+/* header */
+
+.header-box {
+    background-size: 100%;
+    background: #540B51;
+    display: flex;
+    flex-flow: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left {
+    width: 65vw;
+}
+
+.header-left h1 {
+    font-size: 4.6em;
+    font-weight: 550;
+    letter-spacing: -6px;
+    
+}
+
+.header-left p {
+    font-size: 1em;
+}
+
+.header-right img {
+    width: 35vw;
+    
+}
